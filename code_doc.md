@@ -30,6 +30,9 @@ If you face the `ImportError` then follow the solution mentioned here: [Solution
 
 ## Code
 
+### `main.py`
+This file contains the code for taking the image in real time from the attached ZED Camera and producing the results.
+
 ### `utility.py`
 This file contains the wrapper class `Yolop` and all the helper functions that are needed to produce the results. 
 
@@ -99,6 +102,9 @@ Then follow this solution here: [Error Fix](https://github.com/ultralytics/yolov
 
 ### Code
 The usage is simple and the example can be referred from here: [Example](https://github.com/amirhosseinh77/JetsonYolo/blob/main/JetsonYolo.py)
+
+### `main.py`
+This file contains the code for taking the image in real time from the attached ZED Camera and producing the results.
 
 #### `OBJ_DETECTION` class
 The main class is `OBJ_DETECTION`. The constructor takes two arguments, the first being the path to the weights and the second being the list of classes to predict. The example provided is comprehensive and describes the usage.

@@ -46,6 +46,7 @@ class Yolop(torch.nn.Module):
         inf_out, _ = det_out
 
         start=time.time()
+        # det = non_max_suppression(inf_out, conf_thres=0.25, iou_thres=0.01)[0]
         det = non_max_suppression(inf_out, conf_thres=0.25, iou_thres=0.45)[0]
         end=time.time()
         obj_det=end-start

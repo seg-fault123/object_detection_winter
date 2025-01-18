@@ -5,3 +5,7 @@ img1.jpg
 img2.jpg
 __pycache__/
 yolop/__pycache__
+yolop/result_images/*
+yolop/source_images/*
+yolov5/result_images/*
+yolov5/source_images/*
